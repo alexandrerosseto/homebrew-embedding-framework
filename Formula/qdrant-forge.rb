@@ -6,8 +6,8 @@ class QdrantForge < Formula
   version "0.0.0-dev"
 
   def install
-    bin.install "qdrant-setup"
-    prefix.install Dir["bin", "lib", "README.md", "GETTING-STARTED.md", "GLOBAL-INSTALL.md", "LOCAL-INSTALL.md"]
+    libexec.install Dir["bin", "lib", "README.md", "GETTING-STARTED.md", "GLOBAL-INSTALL.md", "LOCAL-INSTALL.md"]
+    bin.write_exec_script(libexec/"bin/qdrant-setup")
   end
 
   test do
