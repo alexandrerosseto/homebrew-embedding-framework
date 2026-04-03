@@ -2,7 +2,7 @@ class QdrantForge < Formula
   desc "Instalador standalone do embedding-framework para macOS"
   homepage "https://github.com/alexandrerosseto/embeddging-framework"
   url "https://github.com/alexandrerosseto/embeddging-framework/releases/latest/download/qdrant-forge.tar.gz"
-  sha256 "50b101a35397c6e36e062bb99fc73f6b0f60bd5555ce60ec8cb4080002fd4742"
+  sha256 "028be29a29b1efbdc8c8505c2138aa48fe438c9fa4ffc664e91d3bac0bb8fb30"
   version "0.0.0-dev"
 
   def install
