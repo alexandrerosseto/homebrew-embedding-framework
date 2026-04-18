@@ -2,8 +2,8 @@ class QdrantForge < Formula
   desc "Instalador standalone do embedding-framework para macOS"
   homepage "https://github.com/alexandrerosseto/embeddging-framework"
   url "https://github.com/alexandrerosseto/embeddging-framework/releases/latest/download/qdrant-forge.tar.gz"
-  sha256 "f3c8e4214773927149cd48733a1a66af958afc129f07362085ad48fe89191520"
-  version "1.1.0-phase12-public-20260412-1315-dashboard-auto-update-daily"
+  sha256 "874a34b1eb76b34efb4cf78b5cfa8ab334c43814e2cb9a49e0b37dfb4908cd20"
+  version "fix/phase-12-public-followups"
 
   def install
     libexec.install Dir["bin", "lib", "README.md", "GETTING-STARTED.md", "GLOBAL-INSTALL.md", "LOCAL-INSTALL.md"]
